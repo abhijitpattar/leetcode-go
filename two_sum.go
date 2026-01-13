@@ -39,8 +39,14 @@ func TwoSum(nums []int, target int) []int {
 func TwoSum_optimized(nums []int, target int) []int {
 	index := make(map[int]int)
 	for ii, num := range nums {
+		fmt.Println("****************num: ", num)
+		fmt.Println(index)
+		fmt.Println("target: ", target)
 		diff := target - num
+		fmt.Println("diff: ", diff)
+		fmt.Println("index[diff]: ", index[diff])
 		if _, ok := index[diff]; ok {
+			fmt.Println(index, "final")
 			return []int{ii, index[diff]}
 		}
 
