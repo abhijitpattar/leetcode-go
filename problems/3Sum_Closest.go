@@ -1,4 +1,4 @@
-package main
+package problems
 
 /*
 Given an integer array nums of length n and an integer target, find three integers at distinct indices in nums such that the sum is closest to target.
@@ -23,7 +23,7 @@ import (
 	"fmt"
 )
 
-func callthreeSumClosest() {
+func CallthreeSumClosest() {
 	int1 := threeSumClosest([]int{-1, 2, 1, -4}, 1)
 	fmt.Println("expected 2, received :", int1) // 2
 

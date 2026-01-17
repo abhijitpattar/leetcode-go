@@ -1,4 +1,4 @@
-package main
+package problems
 
 import "fmt"
 
@@ -56,7 +56,7 @@ func TwoSum_optimized(nums []int, target int) []int {
 	return nil
 }
 
-func callTwoSum() {
+func CallTwoSum() {
 	retvalue_1 := TwoSum([]int{2, 7, 11, 15}, 9) //[0,1]
 	fmt.Println(retvalue_1)
 

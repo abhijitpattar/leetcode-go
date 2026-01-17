@@ -1,4 +1,4 @@
-package main
+package problems
 
 import (
 	"fmt"
@@ -77,7 +77,7 @@ func romanToInt(s string) int {
 	return retval
 }
 
-func callRomanToint() {
+func CallRomanToint() {
 	retvalue_5 := romanToInt("MCMXCIV") //1994
 	fmt.Println(retvalue_5)
 

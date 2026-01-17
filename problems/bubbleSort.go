@@ -1,8 +1,8 @@
-package main
+package problems
 
 import "fmt"
 
-func callBubbleSort() {
+func CallBubbleSort() {
 	unList1 := []int{3, 7, 8, 2, 5}
 	bubbleSort(&unList1)
 	fmt.Println("ordered List1 :", unList1)
